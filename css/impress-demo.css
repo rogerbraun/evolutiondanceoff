@@ -269,7 +269,20 @@ a:focus {
 
 #title h1 {
     font-size: 190px;
+    text-align: center;
     
+    -webkit-transform: translateZ(50px);
+    -moz-transform:    translateZ(50px);
+    -ms-transform:     translateZ(50px);
+    -o-transform:      translateZ(50px);
+    transform:         translateZ(50px);
+}
+#title {
+    line-height: 1.2;
+}
+#title h2{
+    text-align: center;
+    font-size: 150px;
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
@@ -296,7 +309,7 @@ a:focus {
 
 #big b {
     display: block;
-    font-size: 250px;
+    font-size: 200px;
     line-height: 250px;
 }
 
